@@ -19,6 +19,7 @@ yum install -y wget && wget -O install.sh http://download.bt.cn/install/install_
 yum install wget -y
 wget https://raw.githubusercontent.com/rroy233/SafeBTPanel/main/bt.zip
 unzip bt.zip
+rm -f bt.zip
 cd panel && bash update.sh
 ```
 

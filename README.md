@@ -30,3 +30,9 @@ cd panel && bash update.sh
 ```shell
 cd /www/server/panel/data/ && mv bind.pl bind.pl.1
 ```
+
+### 4.屏蔽官方
+```shell
+echo "127.0.0.1 www.bt.cn" >> /etc/hosts
+/etc/init.d/network restart
+```
